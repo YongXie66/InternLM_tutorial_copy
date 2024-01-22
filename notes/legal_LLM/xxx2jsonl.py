@@ -118,20 +118,20 @@ input_file_name1 = 'CrimeKgAssitant清洗后_52k.json'
 input_file_name2 = 'legal_article/article.txt'
 input_file_name3 = 'DISC-Law-SFT/DISC-Law-SFT-Pair.jsonl'
 input_file_name4 = 'hanfei/data/zh_contract_instruction.json'
-input_file_name6 = 'hanfei/data/zh_law_instruction.json'
+input_file_name5 = 'hanfei/data/zh_law_instruction.json'
 # input_file_name5 = 'hanfei/data/zh_law_conversation.json'
 
 output_file_name1 = 'InterLM_format_data_ft/CrimeKgAssitant.jsonl'
 output_file_name2 = 'InterLM_format_data_ft/legal_article.jsonl'
 output_file_name3 = 'InterLM_format_data_ft/DISC-Law-SFT-Pair.jsonl'
 output_file_name4 = 'InterLM_format_data_ft/zh_contract_instruction.jsonl'
-output_file_name6 = 'InterLM_format_data_ft/zh_law_instruction.jsonl'
+output_file_name5 = 'InterLM_format_data_ft/zh_law_instruction.jsonl'
 # output_file_name5 = 'InterLM_format_data_ft/zh_law_conversation.jsonl'
 
 convert_format1(input_file_name1, output_file_name1)
 convert_format2(input_file_name2, output_file_name2)
 convert_format3(input_file_name3, output_file_name3)
 convert_format4(input_file_name4, output_file_name4)
-convert_format4(input_file_name6, output_file_name6)
+convert_format4(input_file_name5, output_file_name5)
 # convert_format4(input_file_name5, output_file_name5)
 
